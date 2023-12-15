@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Fri Dec 15 10:26:01 2023
+# Process ID: 14776
+# Current directory: F:/ICTP/Simulaciones ACA/20celulas_simula_red_alta_c_testbemch_verilog/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5796 F:\ICTP\Simulaciones ACA\20celulas_simula_red_alta_c_testbemch_verilog\project_1\project_1.xpr
+# Log file: F:/ICTP/Simulaciones ACA/20celulas_simula_red_alta_c_testbemch_verilog/project_1/vivado.log
+# Journal file: F:/ICTP/Simulaciones ACA/20celulas_simula_red_alta_c_testbemch_verilog/project_1\vivado.jou
+# Running On: luciana, OS: Windows, CPU Frequency: 3991 MHz, CPU Physical cores: 4, Host memory: 25626 MB
+#-----------------------------------------------------------
+start_gui
+open_project {F:/ICTP/Simulaciones ACA/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.xpr}
+update_compile_order -fileset sources_1

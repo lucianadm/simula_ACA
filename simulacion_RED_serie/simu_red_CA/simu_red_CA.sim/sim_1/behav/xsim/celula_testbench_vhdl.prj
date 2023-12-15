@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../simu_red_CA.srcs/sources_1/imports/RED_CA_vivado/FF_D.vhd" \
+"../../../../simu_red_CA.srcs/sources_1/imports/RED_CA_vivado/Red_CA.vhd" \
+"../../../../simu_red_CA.srcs/sources_1/imports/RED_CA_vivado/celula.vhd" \
+"../../../../simu_red_CA.srcs/sim_1/imports/CA_vivado/celula_testbench.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7z020clg484-1" LaunchTime="1609186019">
+  <File Type="PA-TCL" Name="Red_CA.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="Red_CA_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="Red_CA_reports.tcl"/>
+  <File Type="RDS-RDS" Name="Red_CA.vds"/>
+  <File Type="RDS-UTIL" Name="Red_CA_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="Red_CA_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="Red_CA.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="Red_CA_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="Red_CA_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/GENERICO_simula_red_alta_c_testbemch_verilog/FF_D.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../FF_D.vhd"/>
+        <Attr Name="ImportTime" Val="1599699006"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/GENERICO_simula_red_alta_c_testbemch_verilog/celula.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../celula.vhd"/>
+        <Attr Name="ImportTime" Val="1607546301"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ngate.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/GENERICO_simula_red_alta_c_testbemch_verilog/Red_CA.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Red_CA.vhd"/>
+        <Attr Name="ImportTime" Val="1607694426"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Red_CA"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

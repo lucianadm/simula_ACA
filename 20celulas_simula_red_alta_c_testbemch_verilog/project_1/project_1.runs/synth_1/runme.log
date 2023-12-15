@@ -1,0 +1,614 @@
+
+*** Running vivado
+    with args -log Red_CA.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Red_CA.tcl
+
+
+****** Vivado v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source Red_CA.tcl -notrace
+Command: synth_design -top Red_CA -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 13620 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 700.430 ; gain = 236.582
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Red_CA' [C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/Red_CA.vhd:29]
+	Parameter Ncel bound to: 20 - type: integer 
+	Parameter Nin bound to: 5 - type: integer 
+INFO: [Synth 8-3491] module 'celula' declared at 'C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/celula.vhd:8' bound to instance 'celula0' of component 'celula' [C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/Red_CA.vhd:61]
+INFO: [Synth 8-638] synthesizing module 'celula' [C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/celula.vhd:27]
+	Parameter Nin bound to: 5 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "TRUE" *) [C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/celula.vhd:28]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "TRUE" *) [C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/celula.vhd:29]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "TRUE" *) [C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/celula.vhd:30]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "TRUE" *) [C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/celula.vhd:31]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "TRUE" *) [C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/celula.vhd:35]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "TRUE" *) [C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/celula.vhd:35]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "TRUE" *) [C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/celula.vhd:35]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "TRUE" *) [C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/celula.vhd:35]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "TRUE" *) [C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/celula.vhd:35]
+INFO: [Synth 8-3491] module 'ngate' declared at 'C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/ngate.vhd:13' bound to instance 'n1a' of component 'ngate' [C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/celula.vhd:77]
+INFO: [Synth 8-638] synthesizing module 'ngate' [C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/ngate.vhd:20]
+INFO: [Synth 8-5534] Detected attribute (* keep = "TRUE" *) [C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/ngate.vhd:21]
+INFO: [Synth 8-5534] Detected attribute (* keep = "TRUE" *) [C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/ngate.vhd:21]
+	Parameter INIT bound to: 2'b01 
+INFO: [Synth 8-113] binding component instance 'LUT1_inst' to cell 'LUT1' [C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/ngate.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'ngate' (1#1) [C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/ngate.vhd:20]
+INFO: [Synth 8-3491] module 'ngate' declared at 'C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/ngate.vhd:13' bound to instance 'n1b' of component 'ngate' [C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/celula.vhd:78]
+INFO: [Synth 8-3491] module 'ngate' declared at 'C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/ngate.vhd:13' bound to instance 'n2a' of component 'ngate' [C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/celula.vhd:81]
+INFO: [Synth 8-3491] module 'ngate' declared at 'C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/ngate.vhd:13' bound to instance 'n2b' of component 'ngate' [C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/celula.vhd:82]
+INFO: [Synth 8-3491] module 'ngate' declared at 'C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/ngate.vhd:13' bound to instance 'n3a' of component 'ngate' [C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/celula.vhd:85]
+INFO: [Synth 8-3491] module 'ngate' declared at 'C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/ngate.vhd:13' bound to instance 'n3b' of component 'ngate' [C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/celula.vhd:86]
+INFO: [Synth 8-3491] module 'ngate' declared at 'C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/ngate.vhd:13' bound to instance 'n4a' of component 'ngate' [C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/celula.vhd:89]
+INFO: [Synth 8-3491] module 'ngate' declared at 'C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/ngate.vhd:13' bound to instance 'n4b' of component 'ngate' [C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/celula.vhd:90]
+INFO: [Synth 8-3491] module 'FF_D' declared at 'C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/FF_D.vhd:26' bound to instance 'FFD0' of component 'FF_D' [C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/celula.vhd:93]
+INFO: [Synth 8-638] synthesizing module 'FF_D' [C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/FF_D.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'FF_D' (2#1) [C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/FF_D.vhd:31]
+INFO: [Synth 8-3491] module 'FF_D' declared at 'C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/FF_D.vhd:26' bound to instance 'FFD1' of component 'FF_D' [C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/celula.vhd:95]
+INFO: [Synth 8-3491] module 'FF_D' declared at 'C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/FF_D.vhd:26' bound to instance 'FFD2' of component 'FF_D' [C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/celula.vhd:96]
+INFO: [Synth 8-3491] module 'FF_D' declared at 'C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/FF_D.vhd:26' bound to instance 'FFD3' of component 'FF_D' [C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/celula.vhd:97]
+INFO: [Synth 8-3491] module 'FF_D' declared at 'C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/FF_D.vhd:26' bound to instance 'FFD4' of component 'FF_D' [C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/celula.vhd:100]
+INFO: [Synth 8-256] done synthesizing module 'celula' (3#1) [C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/celula.vhd:27]
+INFO: [Synth 8-638] synthesizing module 'celula__parameterized0' [C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/celula.vhd:27]
+	Parameter Nin bound to: 5 - type: integer 
+INFO: [Synth 8-3491] module 'ngate' declared at 'C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/ngate.vhd:13' bound to instance 'n1a' of component 'ngate' [C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/celula.vhd:77]
+INFO: [Synth 8-3491] module 'ngate' declared at 'C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/ngate.vhd:13' bound to instance 'n1b' of component 'ngate' [C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/celula.vhd:78]
+INFO: [Synth 8-3491] module 'ngate' declared at 'C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/ngate.vhd:13' bound to instance 'n2a' of component 'ngate' [C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/celula.vhd:81]
+INFO: [Synth 8-3491] module 'ngate' declared at 'C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/ngate.vhd:13' bound to instance 'n2b' of component 'ngate' [C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/celula.vhd:82]
+INFO: [Synth 8-3491] module 'ngate' declared at 'C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/ngate.vhd:13' bound to instance 'n3a' of component 'ngate' [C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/celula.vhd:85]
+INFO: [Synth 8-3491] module 'ngate' declared at 'C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/ngate.vhd:13' bound to instance 'n3b' of component 'ngate' [C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/celula.vhd:86]
+INFO: [Synth 8-3491] module 'ngate' declared at 'C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/ngate.vhd:13' bound to instance 'n4a' of component 'ngate' [C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/celula.vhd:89]
+INFO: [Synth 8-3491] module 'ngate' declared at 'C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/ngate.vhd:13' bound to instance 'n4b' of component 'ngate' [C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/celula.vhd:90]
+INFO: [Synth 8-3491] module 'FF_D' declared at 'C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/FF_D.vhd:26' bound to instance 'FFD0' of component 'FF_D' [C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/celula.vhd:93]
+INFO: [Synth 8-3491] module 'FF_D' declared at 'C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/FF_D.vhd:26' bound to instance 'FFD1' of component 'FF_D' [C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/celula.vhd:95]
+INFO: [Synth 8-3491] module 'FF_D' declared at 'C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/FF_D.vhd:26' bound to instance 'FFD2' of component 'FF_D' [C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/celula.vhd:96]
+INFO: [Synth 8-3491] module 'FF_D' declared at 'C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/FF_D.vhd:26' bound to instance 'FFD3' of component 'FF_D' [C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/celula.vhd:97]
+INFO: [Synth 8-3491] module 'FF_D' declared at 'C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/FF_D.vhd:26' bound to instance 'FFD4' of component 'FF_D' [C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/celula.vhd:100]
+INFO: [Synth 8-256] done synthesizing module 'celula__parameterized0' (3#1) [C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/celula.vhd:27]
+INFO: [Synth 8-256] done synthesizing module 'Red_CA' (4#1) [C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.srcs/sources_1/imports/RED_CA_vivado/Red_CA.vhd:29]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[99]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[98]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[97]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[96]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[95]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[94]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[93]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[92]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[91]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[90]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[89]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[88]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[87]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[86]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[85]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[84]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[83]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[82]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[81]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[80]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[79]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[78]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[77]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[76]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[75]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[74]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[73]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[72]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[71]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[70]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[69]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[68]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[67]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[66]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[65]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[64]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[63]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[62]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[61]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[60]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[59]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[58]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[57]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[56]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[55]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[54]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[53]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[52]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[51]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[50]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[49]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[48]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[47]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[46]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[45]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[44]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[43]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[42]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[41]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[40]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[39]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[38]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[37]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[36]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[35]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[34]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[33]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[32]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[31]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[30]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[29]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[28]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[27]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[26]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[25]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[24]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[23]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[22]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[21]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[20]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[19]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[18]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[17]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[16]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[15]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[14]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[13]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[12]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[11]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[10]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[9]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[8]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[7]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[6]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[5]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 773.492 ; gain = 309.645
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 773.492 ; gain = 309.645
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 773.492 ; gain = 309.645
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 773.492 ; gain = 309.645
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 200   
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 40    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module FF_D 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+Module celula 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 2     
+Module celula__parameterized0 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[99]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[98]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[97]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[96]
+WARNING: [Synth 8-3331] design Red_CA has unconnected port Entrada[95]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 946.754 ; gain = 482.906
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 952.312 ; gain = 488.465
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 952.312 ; gain = 488.465
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:25 ; elapsed = 00:00:28 . Memory (MB): peak = 952.422 ; gain = 488.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:25 ; elapsed = 00:00:28 . Memory (MB): peak = 952.422 ; gain = 488.574
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:25 ; elapsed = 00:00:28 . Memory (MB): peak = 952.422 ; gain = 488.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:25 ; elapsed = 00:00:28 . Memory (MB): peak = 952.422 ; gain = 488.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:25 ; elapsed = 00:00:28 . Memory (MB): peak = 952.422 ; gain = 488.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:25 ; elapsed = 00:00:28 . Memory (MB): peak = 952.422 ; gain = 488.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |LUT1  |   200|
+|2     |LUT2  |     2|
+|3     |LUT3  |    40|
+|4     |LUT6  |     9|
+|5     |MUXF7 |     4|
+|6     |FDRE  |    40|
+|7     |IBUF  |    43|
+|8     |OBUF  |    40|
++------+------+------+
+
+Report Instance Areas: 
++------+--------------------+--------------------------+------+
+|      |Instance            |Module                    |Cells |
++------+--------------------+--------------------------+------+
+|1     |top                 |                          |   378|
+|2     |  celula0           |celula                    |    29|
+|3     |    n1a             |ngate__19                 |     1|
+|4     |    n1b             |ngate__20                 |     1|
+|5     |    n2a             |ngate__21                 |     1|
+|6     |    n2b             |ngate__22                 |     1|
+|7     |    n3a             |ngate__23                 |     1|
+|8     |    n3b             |ngate__24                 |     1|
+|9     |    n4a             |ngate__25                 |     1|
+|10    |    n4b             |ngate__26                 |     1|
+|11    |    FFD0            |FF_D_55                   |     3|
+|12    |    FFD4            |FF_D_56                   |     3|
+|13    |  \red[10].puertas  |celula__parameterized0    |    14|
+|14    |    n1a             |ngate__90                 |     1|
+|15    |    n1b             |ngate__91                 |     1|
+|16    |    n2a             |ngate__92                 |     1|
+|17    |    n2b             |ngate__93                 |     1|
+|18    |    n3a             |ngate__94                 |     1|
+|19    |    n3b             |ngate__95                 |     1|
+|20    |    n4a             |ngate__96                 |     1|
+|21    |    n4b             |ngate__10                 |     1|
+|22    |    FFD0            |FF_D_53                   |     2|
+|23    |    FFD4            |FF_D_54                   |     2|
+|24    |  \red[11].puertas  |celula__parameterized0_0  |    14|
+|25    |    n1a             |ngate__83                 |     1|
+|26    |    n1b             |ngate__84                 |     1|
+|27    |    n2a             |ngate__85                 |     1|
+|28    |    n2b             |ngate__86                 |     1|
+|29    |    n3a             |ngate__87                 |     1|
+|30    |    n3b             |ngate__88                 |     1|
+|31    |    n4a             |ngate__89                 |     1|
+|32    |    n4b             |ngate__11                 |     1|
+|33    |    FFD0            |FF_D_51                   |     2|
+|34    |    FFD4            |FF_D_52                   |     2|
+|35    |  \red[12].puertas  |celula__parameterized0_1  |    14|
+|36    |    n1a             |ngate__76                 |     1|
+|37    |    n1b             |ngate__77                 |     1|
+|38    |    n2a             |ngate__78                 |     1|
+|39    |    n2b             |ngate__79                 |     1|
+|40    |    n3a             |ngate__80                 |     1|
+|41    |    n3b             |ngate__81                 |     1|
+|42    |    n4a             |ngate__82                 |     1|
+|43    |    n4b             |ngate__12                 |     1|
+|44    |    FFD0            |FF_D_49                   |     2|
+|45    |    FFD4            |FF_D_50                   |     2|
+|46    |  \red[13].puertas  |celula__parameterized0_2  |    14|
+|47    |    n1a             |ngate__69                 |     1|
+|48    |    n1b             |ngate__70                 |     1|
+|49    |    n2a             |ngate__71                 |     1|
+|50    |    n2b             |ngate__72                 |     1|
+|51    |    n3a             |ngate__73                 |     1|
+|52    |    n3b             |ngate__74                 |     1|
+|53    |    n4a             |ngate__75                 |     1|
+|54    |    n4b             |ngate__13                 |     1|
+|55    |    FFD0            |FF_D_47                   |     2|
+|56    |    FFD4            |FF_D_48                   |     2|
+|57    |  \red[14].puertas  |celula__parameterized0_3  |    14|
+|58    |    n1a             |ngate__62                 |     1|
+|59    |    n1b             |ngate__63                 |     1|
+|60    |    n2a             |ngate__64                 |     1|
+|61    |    n2b             |ngate__65                 |     1|
+|62    |    n3a             |ngate__66                 |     1|
+|63    |    n3b             |ngate__67                 |     1|
+|64    |    n4a             |ngate__68                 |     1|
+|65    |    n4b             |ngate__14                 |     1|
+|66    |    FFD0            |FF_D_45                   |     2|
+|67    |    FFD4            |FF_D_46                   |     2|
+|68    |  \red[15].puertas  |celula__parameterized0_4  |    14|
+|69    |    n1a             |ngate__55                 |     1|
+|70    |    n1b             |ngate__56                 |     1|
+|71    |    n2a             |ngate__57                 |     1|
+|72    |    n2b             |ngate__58                 |     1|
+|73    |    n3a             |ngate__59                 |     1|
+|74    |    n3b             |ngate__60                 |     1|
+|75    |    n4a             |ngate__61                 |     1|
+|76    |    n4b             |ngate__15                 |     1|
+|77    |    FFD0            |FF_D_43                   |     2|
+|78    |    FFD4            |FF_D_44                   |     2|
+|79    |  \red[16].puertas  |celula__parameterized0_5  |    14|
+|80    |    n1a             |ngate__48                 |     1|
+|81    |    n1b             |ngate__49                 |     1|
+|82    |    n2a             |ngate__50                 |     1|
+|83    |    n2b             |ngate__51                 |     1|
+|84    |    n3a             |ngate__52                 |     1|
+|85    |    n3b             |ngate__53                 |     1|
+|86    |    n4a             |ngate__54                 |     1|
+|87    |    n4b             |ngate__16                 |     1|
+|88    |    FFD0            |FF_D_41                   |     2|
+|89    |    FFD4            |FF_D_42                   |     2|
+|90    |  \red[17].puertas  |celula__parameterized0_6  |    14|
+|91    |    n1a             |ngate__41                 |     1|
+|92    |    n1b             |ngate__42                 |     1|
+|93    |    n2a             |ngate__43                 |     1|
+|94    |    n2b             |ngate__44                 |     1|
+|95    |    n3a             |ngate__45                 |     1|
+|96    |    n3b             |ngate__46                 |     1|
+|97    |    n4a             |ngate__47                 |     1|
+|98    |    n4b             |ngate__17                 |     1|
+|99    |    FFD0            |FF_D_39                   |     2|
+|100   |    FFD4            |FF_D_40                   |     2|
+|101   |  \red[18].puertas  |celula__parameterized0_7  |    14|
+|102   |    n1a             |ngate__34                 |     1|
+|103   |    n1b             |ngate__35                 |     1|
+|104   |    n2a             |ngate__36                 |     1|
+|105   |    n2b             |ngate__37                 |     1|
+|106   |    n3a             |ngate__38                 |     1|
+|107   |    n3b             |ngate__39                 |     1|
+|108   |    n4a             |ngate__40                 |     1|
+|109   |    n4b             |ngate__18                 |     1|
+|110   |    FFD0            |FF_D_37                   |     2|
+|111   |    FFD4            |FF_D_38                   |     2|
+|112   |  \red[19].puertas  |celula__parameterized0_8  |    14|
+|113   |    n1a             |ngate__27                 |     1|
+|114   |    n1b             |ngate__28                 |     1|
+|115   |    n2a             |ngate__29                 |     1|
+|116   |    n2b             |ngate__30                 |     1|
+|117   |    n3a             |ngate__31                 |     1|
+|118   |    n3b             |ngate__32                 |     1|
+|119   |    n4a             |ngate__33                 |     1|
+|120   |    n4b             |ngate                     |     1|
+|121   |    FFD0            |FF_D_35                   |     2|
+|122   |    FFD4            |FF_D_36                   |     2|
+|123   |  \red[1].puertas   |celula__parameterized0_9  |    14|
+|124   |    n1a             |ngate__153                |     1|
+|125   |    n1b             |ngate__154                |     1|
+|126   |    n2a             |ngate__155                |     1|
+|127   |    n2b             |ngate__156                |     1|
+|128   |    n3a             |ngate__157                |     1|
+|129   |    n3b             |ngate__158                |     1|
+|130   |    n4a             |ngate__159                |     1|
+|131   |    n4b             |ngate__1                  |     1|
+|132   |    FFD0            |FF_D_33                   |     2|
+|133   |    FFD4            |FF_D_34                   |     2|
+|134   |  \red[2].puertas   |celula__parameterized0_10 |    14|
+|135   |    n1a             |ngate__146                |     1|
+|136   |    n1b             |ngate__147                |     1|
+|137   |    n2a             |ngate__148                |     1|
+|138   |    n2b             |ngate__149                |     1|
+|139   |    n3a             |ngate__150                |     1|
+|140   |    n3b             |ngate__151                |     1|
+|141   |    n4a             |ngate__152                |     1|
+|142   |    n4b             |ngate__2                  |     1|
+|143   |    FFD0            |FF_D_31                   |     2|
+|144   |    FFD4            |FF_D_32                   |     2|
+|145   |  \red[3].puertas   |celula__parameterized0_11 |    14|
+|146   |    n1a             |ngate__139                |     1|
+|147   |    n1b             |ngate__140                |     1|
+|148   |    n2a             |ngate__141                |     1|
+|149   |    n2b             |ngate__142                |     1|
+|150   |    n3a             |ngate__143                |     1|
+|151   |    n3b             |ngate__144                |     1|
+|152   |    n4a             |ngate__145                |     1|
+|153   |    n4b             |ngate__3                  |     1|
+|154   |    FFD0            |FF_D_29                   |     2|
+|155   |    FFD4            |FF_D_30                   |     2|
+|156   |  \red[4].puertas   |celula__parameterized0_12 |    14|
+|157   |    n1a             |ngate__132                |     1|
+|158   |    n1b             |ngate__133                |     1|
+|159   |    n2a             |ngate__134                |     1|
+|160   |    n2b             |ngate__135                |     1|
+|161   |    n3a             |ngate__136                |     1|
+|162   |    n3b             |ngate__137                |     1|
+|163   |    n4a             |ngate__138                |     1|
+|164   |    n4b             |ngate__4                  |     1|
+|165   |    FFD0            |FF_D_27                   |     2|
+|166   |    FFD4            |FF_D_28                   |     2|
+|167   |  \red[5].puertas   |celula__parameterized0_13 |    14|
+|168   |    n1a             |ngate__125                |     1|
+|169   |    n1b             |ngate__126                |     1|
+|170   |    n2a             |ngate__127                |     1|
+|171   |    n2b             |ngate__128                |     1|
+|172   |    n3a             |ngate__129                |     1|
+|173   |    n3b             |ngate__130                |     1|
+|174   |    n4a             |ngate__131                |     1|
+|175   |    n4b             |ngate__5                  |     1|
+|176   |    FFD0            |FF_D_25                   |     2|
+|177   |    FFD4            |FF_D_26                   |     2|
+|178   |  \red[6].puertas   |celula__parameterized0_14 |    14|
+|179   |    n1a             |ngate__118                |     1|
+|180   |    n1b             |ngate__119                |     1|
+|181   |    n2a             |ngate__120                |     1|
+|182   |    n2b             |ngate__121                |     1|
+|183   |    n3a             |ngate__122                |     1|
+|184   |    n3b             |ngate__123                |     1|
+|185   |    n4a             |ngate__124                |     1|
+|186   |    n4b             |ngate__6                  |     1|
+|187   |    FFD0            |FF_D_23                   |     2|
+|188   |    FFD4            |FF_D_24                   |     2|
+|189   |  \red[7].puertas   |celula__parameterized0_15 |    14|
+|190   |    n1a             |ngate__111                |     1|
+|191   |    n1b             |ngate__112                |     1|
+|192   |    n2a             |ngate__113                |     1|
+|193   |    n2b             |ngate__114                |     1|
+|194   |    n3a             |ngate__115                |     1|
+|195   |    n3b             |ngate__116                |     1|
+|196   |    n4a             |ngate__117                |     1|
+|197   |    n4b             |ngate__7                  |     1|
+|198   |    FFD0            |FF_D_21                   |     2|
+|199   |    FFD4            |FF_D_22                   |     2|
+|200   |  \red[8].puertas   |celula__parameterized0_16 |    14|
+|201   |    n1a             |ngate__104                |     1|
+|202   |    n1b             |ngate__105                |     1|
+|203   |    n2a             |ngate__106                |     1|
+|204   |    n2b             |ngate__107                |     1|
+|205   |    n3a             |ngate__108                |     1|
+|206   |    n3b             |ngate__109                |     1|
+|207   |    n4a             |ngate__110                |     1|
+|208   |    n4b             |ngate__8                  |     1|
+|209   |    FFD0            |FF_D_19                   |     2|
+|210   |    FFD4            |FF_D_20                   |     2|
+|211   |  \red[9].puertas   |celula__parameterized0_17 |    14|
+|212   |    n1a             |ngate__97                 |     1|
+|213   |    n1b             |ngate__98                 |     1|
+|214   |    n2a             |ngate__99                 |     1|
+|215   |    n2b             |ngate__100                |     1|
+|216   |    n3a             |ngate__101                |     1|
+|217   |    n3b             |ngate__102                |     1|
+|218   |    n4a             |ngate__103                |     1|
+|219   |    n4b             |ngate__9                  |     1|
+|220   |    FFD0            |FF_D                      |     2|
+|221   |    FFD4            |FF_D_18                   |     2|
++------+--------------------+--------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:25 ; elapsed = 00:00:28 . Memory (MB): peak = 952.422 ; gain = 488.574
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 190 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:25 ; elapsed = 00:00:28 . Memory (MB): peak = 952.422 ; gain = 488.574
+Synthesis Optimization Complete : Time (s): cpu = 00:00:25 ; elapsed = 00:00:28 . Memory (MB): peak = 952.422 ; gain = 488.574
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 964.555 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1068.438 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+59 Infos, 100 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:33 ; elapsed = 00:00:39 . Memory (MB): peak = 1068.438 ; gain = 629.473
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1068.438 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.runs/synth_1/Red_CA.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Red_CA_utilization_synth.rpt -pb Red_CA_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Dec 29 12:19:18 2020...

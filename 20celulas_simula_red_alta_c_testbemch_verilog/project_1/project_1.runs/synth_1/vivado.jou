@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue Dec 29 12:18:27 2020
+# Process ID: 10996
+# Current directory: C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.runs/synth_1
+# Command line: vivado.exe -log Red_CA.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Red_CA.tcl
+# Log file: C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.runs/synth_1/Red_CA.vds
+# Journal file: C:/Users/luciana/Documents/ICTP/20celulas_simula_red_alta_c_testbemch_verilog/project_1/project_1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Red_CA.tcl -notrace

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="celula_testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="celula_testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="387294fs"></ZoomEndTime>
+      <Cursor1Time time="1000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="115"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="52" />
+   <wvobject fp_name="/celula_testbench/I" type="array">
+      <obj_property name="ElementShortName">I[24:0]</obj_property>
+      <obj_property name="ObjectShortName">I[24:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/celula_testbench/I_1" type="array">
+      <obj_property name="ElementShortName">I_1[24:0]</obj_property>
+      <obj_property name="ObjectShortName">I_1[24:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/celula_testbench/I_2" type="array">
+      <obj_property name="ElementShortName">I_2[24:0]</obj_property>
+      <obj_property name="ObjectShortName">I_2[24:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/celula_testbench/I_3" type="array">
+      <obj_property name="ElementShortName">I_3[24:0]</obj_property>
+      <obj_property name="ObjectShortName">I_3[24:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/celula_testbench/I_4" type="array">
+      <obj_property name="ElementShortName">I_4[24:0]</obj_property>
+      <obj_property name="ObjectShortName">I_4[24:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/celula_testbench/Rule" type="array">
+      <obj_property name="ElementShortName">Rule[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Rule[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/celula_testbench/init" type="logic">
+      <obj_property name="ElementShortName">init</obj_property>
+      <obj_property name="ObjectShortName">init</obj_property>
+   </wvobject>
+   <wvobject fp_name="/celula_testbench/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/celula_testbench/carga" type="logic">
+      <obj_property name="ElementShortName">carga</obj_property>
+      <obj_property name="ObjectShortName">carga</obj_property>
+   </wvobject>
+   <wvobject fp_name="/celula_testbench/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/celula_testbench/O_1" type="array">
+      <obj_property name="ElementShortName">O_1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">O_1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/celula_testbench/O_2" type="array">
+      <obj_property name="ElementShortName">O_2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">O_2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/celula_testbench/O_3" type="array">
+      <obj_property name="ElementShortName">O_3[4:0]</obj_property>
+      <obj_property name="ObjectShortName">O_3[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/celula_testbench/O_4" type="array">
+      <obj_property name="ElementShortName">O_4[4:0]</obj_property>
+      <obj_property name="ObjectShortName">O_4[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/celula_testbench/Onet_1" type="array">
+      <obj_property name="ElementShortName">Onet_1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Onet_1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/celula_testbench/Onet_2" type="array">
+      <obj_property name="ElementShortName">Onet_2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Onet_2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/celula_testbench/Onet_3" type="array">
+      <obj_property name="ElementShortName">Onet_3[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Onet_3[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/celula_testbench/Onet_4" type="array">
+      <obj_property name="ElementShortName">Onet_4[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Onet_4[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/celula_testbench/salida" type="array">
+      <obj_property name="ElementShortName">salida[4:0]</obj_property>
+      <obj_property name="ObjectShortName">salida[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/celula_testbench/i_N" type="other">
+      <obj_property name="ElementShortName">i_N</obj_property>
+      <obj_property name="ObjectShortName">i_N</obj_property>
+   </wvobject>
+   <wvobject fp_name="/celula_testbench/N_cel" type="other">
+      <obj_property name="ElementShortName">N_cel</obj_property>
+      <obj_property name="ObjectShortName">N_cel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/celula_testbench/clock_period" type="other">
+      <obj_property name="ElementShortName">clock_period</obj_property>
+      <obj_property name="ObjectShortName">clock_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/celula_testbench/d_cel0" type="other">
+      <obj_property name="ElementShortName">d_cel0</obj_property>
+      <obj_property name="ObjectShortName">d_cel0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/celula_testbench/d_net00" type="other">
+      <obj_property name="ElementShortName">d_net00</obj_property>
+      <obj_property name="ObjectShortName">d_net00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/celula_testbench/d_net01" type="other">
+      <obj_property name="ElementShortName">d_net01</obj_property>
+      <obj_property name="ObjectShortName">d_net01</obj_property>
+   </wvobject>
+   <wvobject fp_name="/celula_testbench/d_net02" type="other">
+      <obj_property name="ElementShortName">d_net02</obj_property>
+      <obj_property name="ObjectShortName">d_net02</obj_property>
+   </wvobject>
+   <wvobject fp_name="/celula_testbench/d_net03" type="other">
+      <obj_property name="ElementShortName">d_net03</obj_property>
+      <obj_property name="ObjectShortName">d_net03</obj_property>
+   </wvobject>
+   <wvobject fp_name="/celula_testbench/d_net04" type="other">
+      <obj_property name="ElementShortName">d_net04</obj_property>
+      <obj_property name="ObjectShortName">d_net04</obj_property>
+   </wvobject>
+   <wvobject fp_name="/celula_testbench/d_cel1" type="other">
+      <obj_property name="ElementShortName">d_cel1</obj_property>
+      <obj_property name="ObjectShortName">d_cel1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/celula_testbench/d_net10" type="other">
+      <obj_property name="ElementShortName">d_net10</obj_property>
+      <obj_property name="ObjectShortName">d_net10</obj_property>
+   </wvobject>
+   <wvobject fp_name="/celula_testbench/d_net11" type="other">
+      <obj_property name="ElementShortName">d_net11</obj_property>
+      <obj_property name="ObjectShortName">d_net11</obj_property>
+   </wvobject>
+   <wvobject fp_name="/celula_testbench/d_net12" type="other">
+      <obj_property name="ElementShortName">d_net12</obj_property>
+      <obj_property name="ObjectShortName">d_net12</obj_property>
+   </wvobject>
+   <wvobject fp_name="/celula_testbench/d_net13" type="other">
+      <obj_property name="ElementShortName">d_net13</obj_property>
+      <obj_property name="ObjectShortName">d_net13</obj_property>
+   </wvobject>
+   <wvobject fp_name="/celula_testbench/d_net14" type="other">
+      <obj_property name="ElementShortName">d_net14</obj_property>
+      <obj_property name="ObjectShortName">d_net14</obj_property>
+   </wvobject>
+   <wvobject fp_name="/celula_testbench/d_cel2" type="other">
+      <obj_property name="ElementShortName">d_cel2</obj_property>
+      <obj_property name="ObjectShortName">d_cel2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/celula_testbench/d_net20" type="other">
+      <obj_property name="ElementShortName">d_net20</obj_property>
+      <obj_property name="ObjectShortName">d_net20</obj_property>
+   </wvobject>
+   <wvobject fp_name="/celula_testbench/d_net21" type="other">
+      <obj_property name="ElementShortName">d_net21</obj_property>
+      <obj_property name="ObjectShortName">d_net21</obj_property>
+   </wvobject>
+   <wvobject fp_name="/celula_testbench/d_net22" type="other">
+      <obj_property name="ElementShortName">d_net22</obj_property>
+      <obj_property name="ObjectShortName">d_net22</obj_property>
+   </wvobject>
+   <wvobject fp_name="/celula_testbench/d_net23" type="other">
+      <obj_property name="ElementShortName">d_net23</obj_property>
+      <obj_property name="ObjectShortName">d_net23</obj_property>
+   </wvobject>
+   <wvobject fp_name="/celula_testbench/d_net24" type="other">
+      <obj_property name="ElementShortName">d_net24</obj_property>
+      <obj_property name="ObjectShortName">d_net24</obj_property>
+   </wvobject>
+   <wvobject fp_name="/celula_testbench/d_cel3" type="other">
+      <obj_property name="ElementShortName">d_cel3</obj_property>
+      <obj_property name="ObjectShortName">d_cel3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/celula_testbench/d_net30" type="other">
+      <obj_property name="ElementShortName">d_net30</obj_property>
+      <obj_property name="ObjectShortName">d_net30</obj_property>
+   </wvobject>
+   <wvobject fp_name="/celula_testbench/d_net31" type="other">
+      <obj_property name="ElementShortName">d_net31</obj_property>
+      <obj_property name="ObjectShortName">d_net31</obj_property>
+   </wvobject>
+   <wvobject fp_name="/celula_testbench/d_net32" type="other">
+      <obj_property name="ElementShortName">d_net32</obj_property>
+      <obj_property name="ObjectShortName">d_net32</obj_property>
+   </wvobject>
+   <wvobject fp_name="/celula_testbench/d_net33" type="other">
+      <obj_property name="ElementShortName">d_net33</obj_property>
+      <obj_property name="ObjectShortName">d_net33</obj_property>
+   </wvobject>
+   <wvobject fp_name="/celula_testbench/d_net34" type="other">
+      <obj_property name="ElementShortName">d_net34</obj_property>
+      <obj_property name="ObjectShortName">d_net34</obj_property>
+   </wvobject>
+   <wvobject fp_name="/celula_testbench/d_cel4" type="other">
+      <obj_property name="ElementShortName">d_cel4</obj_property>
+      <obj_property name="ObjectShortName">d_cel4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/celula_testbench/d_net40" type="other">
+      <obj_property name="ElementShortName">d_net40</obj_property>
+      <obj_property name="ObjectShortName">d_net40</obj_property>
+   </wvobject>
+   <wvobject fp_name="/celula_testbench/d_net41" type="other">
+      <obj_property name="ElementShortName">d_net41</obj_property>
+      <obj_property name="ObjectShortName">d_net41</obj_property>
+   </wvobject>
+   <wvobject fp_name="/celula_testbench/d_net42" type="other">
+      <obj_property name="ElementShortName">d_net42</obj_property>
+      <obj_property name="ObjectShortName">d_net42</obj_property>
+   </wvobject>
+   <wvobject fp_name="/celula_testbench/d_net43" type="other">
+      <obj_property name="ElementShortName">d_net43</obj_property>
+      <obj_property name="ObjectShortName">d_net43</obj_property>
+   </wvobject>
+   <wvobject fp_name="/celula_testbench/d_net44" type="other">
+      <obj_property name="ElementShortName">d_net44</obj_property>
+      <obj_property name="ObjectShortName">d_net44</obj_property>
+   </wvobject>
+</wave_config>

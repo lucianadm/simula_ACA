@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_veri_time_impl.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testbench_veri" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="763948498fs"></ZoomEndTime>
+      <Cursor1Time time="1000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="99"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/testbench_veri/I" type="array">
+      <obj_property name="ElementShortName">I[24:0]</obj_property>
+      <obj_property name="ObjectShortName">I[24:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_veri/Rule" type="array">
+      <obj_property name="ElementShortName">Rule[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Rule[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_veri/init" type="logic">
+      <obj_property name="ElementShortName">init</obj_property>
+      <obj_property name="ObjectShortName">init</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_veri/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_veri/sync" type="logic">
+      <obj_property name="ElementShortName">sync</obj_property>
+      <obj_property name="ObjectShortName">sync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_veri/carga" type="logic">
+      <obj_property name="ElementShortName">carga</obj_property>
+      <obj_property name="ObjectShortName">carga</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_veri/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_veri/clk_carga" type="logic">
+      <obj_property name="ElementShortName">clk_carga</obj_property>
+      <obj_property name="ObjectShortName">clk_carga</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_veri/counter_data" type="array">
+      <obj_property name="ElementShortName">counter_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">counter_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_veri/O" type="array">
+      <obj_property name="ElementShortName">O[4:0]</obj_property>
+      <obj_property name="ObjectShortName">O[4:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_veri/c" type="array">
+      <obj_property name="ElementShortName">c[4:0]</obj_property>
+      <obj_property name="ObjectShortName">c[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_veri/clock_period_carga" type="array">
+      <obj_property name="ElementShortName">clock_period_carga[31:0]</obj_property>
+      <obj_property name="ObjectShortName">clock_period_carga[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_veri/clock_period" type="array">
+      <obj_property name="ElementShortName">clock_period[31:0]</obj_property>
+      <obj_property name="ObjectShortName">clock_period[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_veri/clock_period_cargas2" type="array">
+      <obj_property name="ElementShortName">clock_period_cargas2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">clock_period_cargas2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_veri/clock_periods2" type="array">
+      <obj_property name="ElementShortName">clock_periods2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">clock_periods2[31:0]</obj_property>
+   </wvobject>
+</wave_config>
